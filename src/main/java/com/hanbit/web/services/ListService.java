@@ -1,5 +1,5 @@
 package com.hanbit.web.services;
 
-public interface ListService {
+import java.util.List;
 
-}
+@FunctionalInterface public interface ListService {List<?>list();}
